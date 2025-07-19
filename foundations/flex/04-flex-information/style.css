@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+
+/* NEW EDITS BELOW */
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.plants-box{
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+
+.barberry-box,
+.chili-box,
+.pepper-box,
+.saffron-box {
+  display: flex-column;
+  max-width: 200px;
+}
+
+.text{
+  text-align: center;
+}
